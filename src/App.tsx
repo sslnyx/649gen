@@ -12,13 +12,13 @@ function App() {
   };
 
   return (
-    <main className="relative w-[270px] h-[460px]">
-      <button className="mb-10 absolute -left-[100px] top-0" onClick={rollHandler}>
+    <main className="relative w-[270px] h-[460px] flex flex-col items-center">
+      <button className="absolute -top-[80px]" onClick={rollHandler}>
         Gen
       </button>
 
       {result.map((numArr, i) => (
-        <div className="border-2 mb-5 py-3" key={i}>
+        <div className="border-2 mb-5 py-3 w-full" key={i}>
           {numArr.map((num, j) => (
             <span key={j} className="px-3 min-w-[30px] inline-block">
               {num}
