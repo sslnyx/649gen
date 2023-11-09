@@ -44,7 +44,7 @@ function App() {
 
   return (
     <main
-      className="relative w-[320px]"
+      className="relative w-[320px] pt-10 flex items-center"
       style={{ height: `${window.innerHeight}px` }}
     >
       <div className="relative">
