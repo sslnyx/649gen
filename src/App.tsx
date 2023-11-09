@@ -43,8 +43,11 @@ function App() {
   };
 
   return (
-    <main className="relative w-[320px]">
-      <div className="relative  mb-5">
+    <main
+      className="relative w-[320px]"
+      style={{ height: `${window.innerHeight}px` }}
+    >
+      <div className="relative">
         {/* <button className="mb-5" onClick={rollHandler}>
           Gen
         </button> */}
